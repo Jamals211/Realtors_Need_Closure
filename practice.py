@@ -54,7 +54,7 @@ x.print_employee ()
 
 
 
-class employee:
+class Person:
   def __init__(self, name, employee_number):
     self.name = name
     self.employee_number = employee_number
@@ -64,8 +64,13 @@ class employee:
 
 #Use the Person class to create an object, and then execute the printname method:
 
-x = employee("John", "Doe")
-x.printname()
+# x = employee("John", "Doe")
+# x.printname()
+
+
+# class student(Person):
+#     def __init__(self, )
+
 
 
 
